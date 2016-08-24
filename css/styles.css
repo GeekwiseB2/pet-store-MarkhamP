@@ -1,0 +1,43 @@
+
+
+.center {text-align: center;}
+
+#dog {
+    width: 50px;
+    height: 45px;
+}
+
+.navbar-brand {
+
+  padding: 2px 10px !important;  /*overriding the bootstrap .navbar-branding img} */*/
+}
+
+
+.script {
+  margin-top: 5px;
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+  color: #F48057;
+}
+
+.jumbotron {
+    min-height: 450px;
+    /* add bootstrap jumbotron background image */
+    background: url("../img/hero.jpg");
+    /* change bootstrap jumbotron text color */
+    color: #FFF;
+    background-size: 100% 100%;
+
+}
+
+.action-class {
+  margin-top: 40px;
+}
+
+.thumbnail {
+  background-color: #deeaee;
+}
+
+a {
+  text-transform: uppercase;
+}
