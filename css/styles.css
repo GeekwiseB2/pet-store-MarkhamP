@@ -113,16 +113,15 @@ body {
 footer{
 	background-color: #000;
   min-height: 150px;
- color: #fff;
+  color: #fff;
   }
 
 #footer-logo {
-      width: 100px;
-
+  width: 100px;
   }
-.footer-border {
-border-left: 1px solid #333;
 
+.footer-border {
+  border-left: 1px solid #333;
 }
 
 address {
