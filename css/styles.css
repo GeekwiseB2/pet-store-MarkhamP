@@ -1,7 +1,17 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
 
+/*UNIVERSAL*/
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
 
 .center {text-align: center;}
 
+
+
+
+/*HEADER*/
 #dog {
     width: 50px;
     height: 45px;
@@ -20,6 +30,19 @@
   color: #F48057;
 }
 
+.menu-tab:hover {
+      color: #F48057 !important;
+}
+
+.menu-tab {
+    font-size: 25px;
+    color: blue !important;
+    font-weight: 200;
+}
+
+
+/*JUMBOTRON*/
+
 .jumbotron {
     min-height: 450px;
     /* add bootstrap jumbotron background image */
@@ -30,14 +53,121 @@
 
 }
 
-.action-class {
-  margin-top: 40px;
+
+.action-call {
+  color: #fff !important;
+  font-size: 35px !important;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 20px;
+
+}
+
+/*FEATURED PRODUCTS*/
+
+#featured-section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.featured {
+   text-transform: uppercase;
+   font-weight: bold;
 }
 
 .thumbnail {
   background-color: #deeaee;
 }
 
-a {
-  text-transform: uppercase;
+
+
+.product-pic {
+  padding: 10px;
+}
+
+.purchase-button {
+  background: 5bc0de;
+  font-size: 12px;
+}
+
+.product-caption {
+  padding: 10px !important;
+  font-family: 'Raleway', sans-serif;
+}
+
+.product-caption h4 {
+  font-weight: bold;
+}
+
+/*SERVICES*/
+.services-tab:hover {
+      color: #F48057;
+}
+
+.services-tab {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/*FOOTER*/
+footer{
+	background-color: #000;
+  min-height: 150px;
+ color: #fff;
+  }
+
+#footer-logo {
+      width: 100px;
+
+  }
+.footer-border {
+border-left: 1px solid #333;
+
+}
+
+address {
+  color: #fff;
+  padding: 20px 0px;
+}
+
+#footer-contents {
+  margin-top: 15px;
+}
+.social {
+  padding: 20px 10px;
+}
+
+.fa {
+  color: #fff;
+}
+
+i {
+  margin-right: 4px
+}
+.copyright {
+  color: #9fa9a3;
+}
+.icon-title {
+  color: #fff;
+}
+
+.icon-title:hover {
+  color: #F48057;
+}
+
+
+/*CONTACT*/
+
+main {
+  position: relative;
+  top: 100px;
+}
+
+.doctor-heading {
+  font-weight: bold;
+}
+
+.contact-footer {
+  position: relative;
+  top: 100px;
 }
